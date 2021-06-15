@@ -1,7 +1,7 @@
 <template>
   <header>
       <a href="#">
-          <img src="" alt="">
+          <img src="../../src/assets/logo-boolflix.png" alt="">
       </a>
       <div>
           <input v-model="searchText"
