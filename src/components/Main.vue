@@ -1,13 +1,13 @@
 <template>
   <main>
       <h2 v-if="cards.lenght=0" > Cerca il tuo film preferito</h2>
-      <ul class="movies">
+      <div class="movie-container">
           <Card 
           v-for="card in cards"
           :key="card.id"
           :item="card"
           />
-      </ul>
+      </div>
   </main>
 </template>
 
@@ -24,5 +24,12 @@ components: {
 </script>
 
 <style>
+.movie-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
 
+}
 </style>
