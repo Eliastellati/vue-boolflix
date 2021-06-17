@@ -13,6 +13,7 @@
       <span> lang: {{ item.original_language }} </span> 
       <img class="flag"  src="../assets/images/it.png" alt="" v-if="item.original_language== 'it'" >
       <img class="flag"  src="../assets/images/en.png" alt="" v-if="item.original_language== 'en'" >
+      <p> {{item.overview}} </p>
       <div>
       <i 
         v-for="n in getVote()"
@@ -75,8 +76,11 @@ methods: {
     margin-top: 2rem;
     padding: .5rem;
   };
-  h4, span {
+  h4, span, {
     padding: .5rem;
+  };
+  p {
+    padding: .8rem;
   }
 
 }

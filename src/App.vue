@@ -52,5 +52,13 @@ export default {
 </script>
 
 <style lang="scss">
-
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  background-color: rgb(20, 20, 20);
+}
 </style>

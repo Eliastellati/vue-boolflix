@@ -31,6 +31,9 @@ components: {
 </script>
 
 <style>
+main {
+    background-color: rgb(20, 20, 20);
+}
 .movie-container, .serie-container {
     display: flex;
     justify-content: space-evenly;
@@ -38,5 +41,9 @@ components: {
     flex-wrap: wrap;
     margin: 0 auto;
 
+}
+h2 {
+    color: white;
+    padding: 3rem;
 }
 </style>
