@@ -72,15 +72,21 @@ methods: {
   top: 0;
   left: 0;
   height: 100%;
+  padding: 0 .5rem;
   h3 {
     margin-top: 2rem;
     padding: .5rem;
   };
-  h4, span, {
+  h4, span {
     padding: .5rem;
   };
   p {
     padding: .8rem;
+    max-height: 50%;
+    overflow: scroll;
+  };
+  .fas {
+    color: yellow;
   }
 
 }
